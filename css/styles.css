@@ -1,0 +1,64 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*header*/
+.header {
+    width: 1440px;
+    height: 72px;
+}
+.nav-list a {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+}
+.address li a {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*section 1*/
+.OrderServiceButton {
+    width: 169;
+    height: 56;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section1 {
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;  
+}
+.page-title {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+}
+/*section 2*/
+.OurBenefits {
+    color: #FFFFFF
+}
+.OurPortfolioTitle {
+    color:  #2E2F42;
+    font-size: 36px;
+    font-weight: 700;  
+}
+.title-3 {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section3 {
+    width: 1440px;
+    height: 732px;
+    background-color: #F4F4FD;
+}
+
+.text {
+   color: #2E2F42;
+   font-size: 16px;
+    font-weight: 400;
+}

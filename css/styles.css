@@ -1,20 +1,48 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
 }
 /*header*/
 .header {
     width: 1440px;
     height: 72px;
 }
+.logo {
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.16;
+    letter-spacing: 3%;
+}
+.logo .web {
+    color: #4D5AE5;
+}
 .nav-list a {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
 }
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #404BBF;
+}
 .address li a {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
+}
+.address li a:hover,
+.address li a:focus {
+    color: #404BBF;
 }
 
 /*section 1*/
@@ -25,7 +53,12 @@ body {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
+.OrderServiceButton:hover,
+.OrderServiceButton:focus {
+    color: #404BBF;
+} 
 .section1 {
     width: 1440px;
     height: 600px;
@@ -41,12 +74,10 @@ body {
     color: #FFFFFF
 }
 .OurPortfolioTitle {
-    color:  #2E2F42;
     font-size: 36px;
     font-weight: 700;  
 }
 .title-3 {
-    color:  #2E2F42;
     font-size: 20px;
     font-weight: 500;
 }
@@ -58,7 +89,6 @@ body {
 }
 
 .text {
-   color: #2E2F42;
    font-size: 16px;
-    font-weight: 400;
+   text-align: left; 
 }

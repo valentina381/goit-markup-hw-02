@@ -13,17 +13,23 @@ a {
 .header {
     width: 1440px;
 }
-.logo {
+.logo .studio {
     font-family: "Raleway", sans-serif;
     color: #2E2F42;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.17;
-    letter-spacing:0.54px ;
+    letter-spacing: 0.54px;
 }
-.logo .web {
+.logo {
+    font-family: "Raleway", sans-serif;
     color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
 }
 .nav-list a {
     color: #2E2F42;
@@ -47,32 +53,35 @@ a {
 }
 
 /*section 1*/
-.OrderServiceButton {
-    height: 56;
+.order-service-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-.OrderServiceButton:hover,
-.OrderServiceButton:focus {
+.order-service-button:hover,
+.order-service-button:focus {
     color: #404BBF;
 } 
-.section1 {
-    height: 600px;
+.section-one {
     background-color: #2E2F42;  
 }
 .page-title {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 /*section 2*/
-.OurBenefits {
+.our-benefits {
     color: #FFFFFF
 }
-.OurPortfolioTitle {
+.our-portfolio-title {
     font-size: 36px;
     font-weight: 700;  
 }

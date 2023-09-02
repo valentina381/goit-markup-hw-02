@@ -20,8 +20,8 @@ a {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    line-height: 21px;
+    letter-spacing: 0.54px;
 }
 .logo .web {
     color: #4D5AE5;
@@ -30,6 +30,8 @@ a {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px
 }
 .nav-list a:hover,
 .nav-list a:focus {
@@ -78,17 +80,21 @@ a {
     font-weight: 700;  
 }
 .title-3 {
-    font-size: 20px;
-    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .section3 {
     width: 1440px;
     height: 732px;
     background-color: #F4F4FD;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .text {
    font-size: 16px;
    text-align: left; 
+   line-height: 24px;
+    letter-spacing: 0.32px;
 }

@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 ul {
@@ -12,7 +12,6 @@ a {
 /*header*/
 .header {
     width: 1440px;
-    height: 72px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -20,8 +19,8 @@ a {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing:0.54px ;
 }
 .logo .web {
     color: #4D5AE5;
@@ -49,7 +48,6 @@ a {
 
 /*section 1*/
 .OrderServiceButton {
-    width: 169;
     height: 56;
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -62,7 +60,6 @@ a {
     color: #404BBF;
 } 
 .section1 {
-    width: 1440px;
     height: 600px;
     background-color: #2E2F42;  
 }
@@ -85,8 +82,6 @@ a {
 }
 
 .section3 {
-    width: 1440px;
-    height: 732px;
     background-color: #F4F4FD;
     line-height: 24px;
     letter-spacing: 0.4px;

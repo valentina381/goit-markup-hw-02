@@ -42,13 +42,15 @@ a {
 .address {
     font-style: normal;
 }
-.address li a {
+.address-list {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.address li a:hover,
-.address li a:focus {
+.address-list:hover,
+.address-list:focus {
     color: #404BBF;
 }
 
@@ -64,7 +66,7 @@ a {
 }
 .order-service-button:hover,
 .order-service-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 } 
 .section-one {
     background-color: #2E2F42;  

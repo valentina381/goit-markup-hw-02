@@ -28,15 +28,15 @@ a {
     line-height: 1.17;
     letter-spacing: 0.54px;
 }
-.nav-list a {
+.nav-list {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px
 }
-.nav-list a:hover,
-.nav-list a:focus {
+.nav-list:hover,
+.nav-list:focus {
     color: #404BBF;
 }
 .address {
@@ -83,7 +83,8 @@ a {
 .our-benefits-title {
     color: #FFFFFF
 }
-.our-portfolio-title {
+.our-portfolio-title,
+.our-team-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;

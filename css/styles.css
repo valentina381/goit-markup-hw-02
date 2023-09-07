@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 /*header*/
+.container {
+    max-width: 1440px;
+    height: 72px;
+}
 .logo .studio {
     font-family: "Raleway", sans-serif;
     color: #2E2F42;
@@ -36,6 +40,7 @@ a {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.54px;
+    margin-left: 156px;
 }
 .nav-list {
     color: #2E2F42;
@@ -50,6 +55,7 @@ a {
 }
 .address {
     font-style: normal;
+    margin-right: 156px;
 }
 .address-list {
     color: #434455;
@@ -62,7 +68,28 @@ a {
 .address-list:focus {
     color: #404BBF;
 }
-
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-address {
+    display: flex;
+    gap: 40px;
+}
+.nav-list {
+    padding: 24px;
+}
 /*section 1*/
 .order-service-button {
     background-color: #4D5AE5;
@@ -72,14 +99,19 @@ a {
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    text-align: center;
+    width: 169px;
+    height: 56px;
 }
 .order-service-button:hover,
 .order-service-button:focus {
     background-color: #404BBF;
 } 
 .section-one {
-    background-color: #2E2F42;  
+    background-color: #2E2F42;
+    height: 600px;
 }
+
 .page-title {
     color: #FFFFFF;
     font-size: 56px;
@@ -87,6 +119,19 @@ a {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    width: 496px;
+    height: 120px;
+}
+.first-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 188px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*section 2*/
 .our-benefits-title {
